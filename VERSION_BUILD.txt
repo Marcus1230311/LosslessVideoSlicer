@@ -1,0 +1,1 @@
+v7: fixes embedded-Python source path handling for smoke test and PyInstaller.

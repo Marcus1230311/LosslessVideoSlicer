@@ -1,0 +1,15 @@
+V9 internal QA (Linux source/FFmpeg layer)
+
+PASS
+- Python compileall / UI AST parse
+- Segment split/delete/restore/range delete/range keep model checks
+- ffprobe metadata
+- ffprobe keyframe index
+- FFmpeg thumbnail generation
+- FFmpeg waveform generation
+- lossless-safe-bound stream-copy export
+- precise exact-point re-encode export
+- generated 12 s H.264/AAC QA source: requested 2.500 -> 7.300 s precise output ~= 4.821 s
+- lossless test resolved 2.500 -> 7.300 to safe 2.000 -> 8.000 and exported successfully
+
+Windows-only acceptance still required for Qt Multimedia rendering, native fonts/DPI and final interaction feel.
